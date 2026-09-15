@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+retail.db
+.streamlit/
+.DS_Store
+venv/

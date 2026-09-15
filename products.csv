@@ -1,0 +1,37 @@
+product_id,product_name,category,unit_price
+1,Wireless Earbuds,Electronics,1591.98
+2,Bluetooth Speaker,Electronics,3810.25
+3,Phone Case,Electronics,2968.18
+4,USB Cable,Electronics,2454.84
+5,Power Bank,Electronics,750.67
+6,Smartwatch,Electronics,750.58
+7,Cotton T-Shirt,Clothing,373.62
+8,Denim Jeans,Clothing,3484.78
+9,Hoodie,Clothing,2464.29
+10,Formal Shirt,Clothing,2876.08
+11,Sneakers,Clothing,229.25
+12,Jacket,Clothing,3884.15
+13,Non-stick Pan,Home & Kitchen,3354.9
+14,Coffee Maker,Home & Kitchen,967.51
+15,Table Lamp,Home & Kitchen,850.03
+16,Storage Box,Home & Kitchen,856.11
+17,Cushion Cover,Home & Kitchen,1321.33
+18,Water Bottle,Home & Kitchen,2170.31
+19,Fiction Novel,Books,1812.99
+20,Self-Help Book,Books,1271.23
+21,Cookbook,Books,2505.63
+22,Biography,Books,687.05
+23,Comic Book,Books,1274.76
+24,Notebook Set,Books,1560.49
+25,Yoga Mat,Sports,1905.87
+26,Resistance Bands,Sports,3172.93
+27,Football,Sports,918.74
+28,Dumbbell Set,Sports,2129.8
+29,Sports Cap,Sports,2430.8
+30,Water Bottle - Sports,Sports,328.83
+31,Face Wash,Beauty,2489.05
+32,Moisturizer,Beauty,806.52
+33,Lipstick,Beauty,400.45
+34,Sunscreen,Beauty,3803.21
+35,Shampoo,Beauty,3867.68
+36,Perfume,Beauty,3262.33
