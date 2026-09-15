@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=Retail%20Sales%20Analytics&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=CCCCCC&center=true&vCenter=true&width=550&lines=SQL+%2B+Python+%2B+Machine+Learning;JOINs+-+CTEs+-+Window+Functions+-+K-Means;Live+interactive+Streamlit+dashboard" alt="Typing SVG" />
+<img src="assets/banner.png" width="100%"/>
 
 <br/><br/>
 
@@ -140,7 +138,5 @@ streamlit run app/dashboard.py
 <div align="center">
 
 **Rohit Mohammad**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer" width="100%"/>
 
 </div>
