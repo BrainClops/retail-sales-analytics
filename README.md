@@ -12,6 +12,17 @@
 
 <br/>
 
+## 💭 A little more about me
+
+- 🔭 I'm currently working on **retail analytics + SQL/ML dashboards**
+- 🌱 I'm currently learning **Machine Learning and AI engineering fundamentals**
+- 🤝 I'm looking to collaborate on **AI/ML and data analytics projects**
+- 💬 Ask me about **Python, SQL, Streamlit, scikit-learn**
+- 📫 Looking for **AI/ML internship opportunities**
+- ⚡ Fun fact: I turn messy data into dashboards people actually use
+
+<br/>
+
 ## 📖 About
 
 Hello! This is a **retail sales analytics pipeline** that turns raw transaction
