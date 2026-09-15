@@ -1,148 +1,126 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Retail%20Sales%20Analytics&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SQL%20%2B%20Python%20%2B%20Machine%20Learning%20%7C%20End-to-End%20Analytics%20Pipeline&descSize=16&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=200&section=header&text=Retail%20Sales%20Analytics&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=%3C%2F%3E%20SQL%20%C2%B7%20Python%20%C2%B7%20Machine%20Learning&descSize=16&descAlignY=58" width="100%"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=SQL-driven+analytics+%2B+ML+forecasting+%2B+customer+segmentation;JOINs+%C2%B7+CTEs+%C2%B7+Window+Functions+%C2%B7+K-Means+%C2%B7+Regression;Live+interactive+Streamlit+dashboard" alt="Typing SVG" />
+<a href="https://github.com/Rohit0101010101"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/rohit-mohammad-342785368/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:mohammadrohit456@gmail.com"><img src="https://img.shields.io/badge/GMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 </div>
 
 <br/>
 
-## 📌 Problem Statement
+## 📖 About
 
-Retail businesses generate huge amounts of transaction data but often struggle to
-turn it into decisions. This project builds a pipeline that:
+Hello! This is a **retail sales analytics pipeline** that turns raw transaction
+data into decisions — built end-to-end with SQL, Python, and Machine Learning.
 
-- 🗄️ Stores and queries transactional data using **SQL**
-- 📈 Forecasts future sales using **Machine Learning**
-- 👥 Segments customers into actionable groups using **RFM + K-Means clustering**
-- 📊 Presents everything in a live, interactive **dashboard**
+- 🗄️ Structured data stored and queried with **SQL** (JOINs, CTEs, window functions)
+- 📈 Future revenue predicted with a **Machine Learning** forecasting model
+- 👥 Customers grouped into actionable segments using **RFM + K-Means clustering**
+- 📊 Everything visualized in a live, interactive **Streamlit dashboard**
 
 <br/>
 
 ## 🏗️ Architecture
 
 ```
-CSV Data (customers, products, transactions)
-        │
-        ▼
-   SQLite Database  ◄──── schema.sql
-        │
-        ▼
-  SQL Analytics Queries (JOINs, CTEs, window functions)
-        │
-        ├──► ML: Sales Forecasting (Polynomial Regression)
-        │
-        └──► ML: Customer Segmentation (RFM + K-Means)
-                    │
-                    ▼
-           Streamlit Dashboard
+CSV Data ──▶ SQLite Database ──▶ SQL Analytics Queries
+                                        │
+                        ┌───────────────┴───────────────┐
+                        ▼                                ▼
+              ML Sales Forecasting               ML Customer Segmentation
+                        │                                │
+                        └───────────────┬────────────────┘
+                                         ▼
+                               Streamlit Dashboard
 ```
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🧰 Technologies
 
 <div align="center">
 
-| Layer | Tools |
-|---|---|
-| 🗄️ Database | SQLite — JOINs, CTEs, window functions |
-| 🐍 Data Processing | Python, Pandas, NumPy |
-| 🤖 Machine Learning | scikit-learn (Regression, K-Means, StandardScaler) |
-| 📊 Dashboard | Streamlit |
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/-SQLite-000000?style=flat-square&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Pandas-000000?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/-scikit--learn-000000?style=flat-square&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Streamlit-000000?style=flat-square&logo=streamlit&logoColor=white"/>
 
 </div>
 
 <br/>
 
-## 📂 Project Structure
+## 📂 Structure
 
 ```
 retail-analytics-project/
 ├── data/
-│   ├── generate_data.py      # generates synthetic retail dataset
+│   ├── generate_data.py
 │   ├── customers.csv
 │   ├── products.csv
 │   └── transactions.csv
 ├── database/
-│   ├── schema.sql             # table definitions
-│   ├── load_data.py           # loads CSVs into SQLite
-│   └── analysis_queries.sql   # business SQL queries (JOINs, CTEs, window functions)
+│   ├── schema.sql
+│   ├── load_data.py
+│   └── analysis_queries.sql
 ├── ml/
-│   ├── forecasting.py         # revenue forecasting model
-│   └── segmentation.py        # RFM + K-Means customer segmentation
+│   ├── forecasting.py
+│   └── segmentation.py
 ├── app/
-│   └── dashboard.py           # Streamlit dashboard
+│   └── dashboard.py
 ├── requirements.txt
 └── README.md
 ```
 
 <br/>
 
-## ✨ Key Features
+## ✨ Features
 
-### 🗄️ SQL Analytics
-- Monthly revenue trend, top products, category-wise breakdown
-- Customer Lifetime Value ranking using **window functions** (`RANK()`, `LAG()`)
-- RFM (Recency, Frequency, Monetary) base query using **CTEs**
-- Month-over-month growth analysis
+**SQL Analytics** — monthly revenue trend, top products, category breakdown,
+customer lifetime value ranking (`RANK()`), month-over-month growth (`LAG()`),
+and an RFM base query built with CTEs. Full query set in
+[`database/analysis_queries.sql`](database/analysis_queries.sql).
 
-📄 See [`database/analysis_queries.sql`](database/analysis_queries.sql) for all queries.
+**Sales Forecasting** — pulls historical monthly revenue via SQL, fits a
+Polynomial Regression model with scikit-learn, forecasts the next N months,
+and reports MAE / R².
 
-### 📈 Sales Forecasting (ML)
-- Pulls historical monthly revenue via SQL
-- Polynomial Regression model (scikit-learn) to forecast next N months
-- Evaluated using MAE and R²
+**Customer Segmentation** — computes RFM metrics per customer via SQL,
+scales the features, and applies K-Means clustering. Clusters are
+auto-labelled *Champions*, *Loyal Customers*, *At Risk*, and *Low Value/New*
+based on their relative RFM profile.
 
-### 👥 Customer Segmentation (ML)
-- Computes RFM metrics per customer via SQL
-- Standardizes features and applies **K-Means clustering**
-- Auto-labels clusters as *Champions*, *Loyal Customers*, *At Risk*, *Low Value/New*
-
-### 🖥️ Interactive Dashboard
-- Live SQL-backed metrics and charts
-- Adjustable forecast horizon
-- Filterable customer segment explorer
+**Dashboard** — three tabs (Overview, Forecast, Segments), live SQL-backed
+metrics, an adjustable forecast horizon, and a filterable segment explorer.
 
 <br/>
 
-## 🚀 How to Run Locally
+## ⚙️ Run Locally
 
 ```bash
-# 1. Clone the repo
 git clone https://github.com/Rohit0101010101/retail-sales-analytics.git
 cd retail-sales-analytics
 
-# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Generate the dataset
 python data/generate_data.py
-
-# 4. Load data into SQLite
 python database/load_data.py
 
-# 5. Launch the dashboard
 streamlit run app/dashboard.py
 ```
 
 <br/>
 
-## 💡 Sample Insights Generated
+## 📊 Statistics
 
-- 🏆 Identified top 5 revenue-driving products and category-wise revenue split
-- 📈 Forecasted next 3 months of revenue using historical trend
-- 🎯 Segmented 500 customers into 4 actionable groups for targeted marketing
-  (e.g. re-engagement campaigns for "At Risk" customers)
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit0101010101&repo=retail-sales-analytics&theme=dark&hide_border=true&title_color=ffffff&text_color=c9c9c9&icon_color=ffffff&bg_color=000000" width="70%"/>
+
+</div>
 
 <br/>
 
@@ -157,20 +135,8 @@ streamlit run app/dashboard.py
 
 <div align="center">
 
-### 🙋 Author
-
 **Rohit Mohammad**
 
-<a href="https://github.com/Rohit0101010101">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/rohit-mohammad-342785368/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:mohammadrohit456@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=100&section=footer" width="100%"/>
 
 </div>
