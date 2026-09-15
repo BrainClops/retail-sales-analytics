@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=200&section=header&text=Retail%20Sales%20Analytics&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=%3C%2F%3E%20SQL%20%C2%B7%20Python%20%C2%B7%20Machine%20Learning&descSize=16&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=Retail%20Sales%20Analytics&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=CCCCCC&center=true&vCenter=true&width=550&lines=SQL+%2B+Python+%2B+Machine+Learning;JOINs+-+CTEs+-+Window+Functions+-+K-Means;Live+interactive+Streamlit+dashboard" alt="Typing SVG" />
+
+<br/><br/>
 
 <a href="https://github.com/Rohit0101010101"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/rohit-mohammad-342785368/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -137,6 +141,6 @@ streamlit run app/dashboard.py
 
 **Rohit Mohammad**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer" width="100%"/>
 
 </div>
