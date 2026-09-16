@@ -1,41 +1,35 @@
-<div align="center">
-
 <img src="assets/banner.png" width="100%"/>
 
-<br/><br/>
+<h1 align="center">Retail Sales Analytics</h1>
 
-<a href="https://github.com/Rohit0101010101"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/rohit-mohammad-342785368/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:mohammadrohit456@gmail.com"><img src="https://img.shields.io/badge/GMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<p align="center">
+An end-to-end analytics pipeline that combines SQL, Python, and Machine Learning to
+forecast sales and segment customers — served through an interactive dashboard.
+</p>
 
-</div>
+<p align="center">
+<a href="https://github.com/Rohit0101010101"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/rohit-mohammad-342785368/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:mohammadrohit456@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+</p>
 
-<br/>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,sqlite,pandas,sklearn,streamlit,git" />
+</p>
 
-## 💭 A little more about me
+---
 
-- 🔭 I'm currently working on **retail analytics + SQL/ML dashboards**
-- 🌱 I'm currently learning **Machine Learning and AI engineering fundamentals**
-- 🤝 I'm looking to collaborate on **AI/ML and data analytics projects**
-- 💬 Ask me about **Python, SQL, Streamlit, scikit-learn**
-- 📫 Looking for **AI/ML internship opportunities**
-- ⚡ Fun fact: I turn messy data into dashboards people actually use
+## About
 
-<br/>
+Retail businesses generate huge amounts of transaction data but often struggle to
+turn it into decisions. This project builds a pipeline that:
 
-## 📖 About
+- Stores and queries transactional data using **SQL**
+- Forecasts future sales using **Machine Learning**
+- Segments customers into actionable groups using **RFM + K-Means clustering**
+- Presents everything in a live, interactive **Streamlit dashboard**
 
-Hello! This is a **retail sales analytics pipeline** that turns raw transaction
-data into decisions — built end-to-end with SQL, Python, and Machine Learning.
-
-- 🗄️ Structured data stored and queried with **SQL** (JOINs, CTEs, window functions)
-- 📈 Future revenue predicted with a **Machine Learning** forecasting model
-- 👥 Customers grouped into actionable segments using **RFM + K-Means clustering**
-- 📊 Everything visualized in a live, interactive **Streamlit dashboard**
-
-<br/>
-
-## 🏗️ Architecture
+## Architecture
 
 ```
 CSV Data ──▶ SQLite Database ──▶ SQL Analytics Queries
@@ -49,24 +43,32 @@ CSV Data ──▶ SQLite Database ──▶ SQL Analytics Queries
                                Streamlit Dashboard
 ```
 
-<br/>
+## Tech Stack
 
-## 🧰 Technologies
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=python" width="48"/><br/>Python
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=sqlite" width="48"/><br/>SQLite
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=pandas" width="48"/><br/>Pandas
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=sklearn" width="48"/><br/>scikit-learn
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=streamlit" width="48"/><br/>Streamlit
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" width="48"/><br/>Git
+</td>
+</tr>
+</table>
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/-SQLite-000000?style=flat-square&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Pandas-000000?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/-scikit--learn-000000?style=flat-square&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Streamlit-000000?style=flat-square&logo=streamlit&logoColor=white"/>
-
-</div>
-
-<br/>
-
-## 📂 Structure
+## Project Structure
 
 ```
 retail-analytics-project/
@@ -84,13 +86,13 @@ retail-analytics-project/
 │   └── segmentation.py
 ├── app/
 │   └── dashboard.py
+├── assets/
+│   └── banner.png
 ├── requirements.txt
 └── README.md
 ```
 
-<br/>
-
-## ✨ Features
+## Features
 
 **SQL Analytics** — monthly revenue trend, top products, category breakdown,
 customer lifetime value ranking (`RANK()`), month-over-month growth (`LAG()`),
@@ -101,17 +103,15 @@ and an RFM base query built with CTEs. Full query set in
 Polynomial Regression model with scikit-learn, forecasts the next N months,
 and reports MAE / R².
 
-**Customer Segmentation** — computes RFM metrics per customer via SQL,
-scales the features, and applies K-Means clustering. Clusters are
-auto-labelled *Champions*, *Loyal Customers*, *At Risk*, and *Low Value/New*
-based on their relative RFM profile.
+**Customer Segmentation** — computes RFM metrics per customer via SQL, scales
+the features, and applies K-Means clustering. Clusters are auto-labelled
+*Champions*, *Loyal Customers*, *At Risk*, and *Low Value/New* based on their
+relative RFM profile.
 
 **Dashboard** — three tabs (Overview, Forecast, Segments), live SQL-backed
 metrics, an adjustable forecast horizon, and a filterable segment explorer.
 
-<br/>
-
-## ⚙️ Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/Rohit0101010101/retail-sales-analytics.git
@@ -125,30 +125,21 @@ python database/load_data.py
 streamlit run app/dashboard.py
 ```
 
-<br/>
+## Sample Insights
 
-## 📊 Statistics
+- Identified top 5 revenue-driving products and category-wise revenue split
+- Forecasted next 3 months of revenue using historical trend
+- Segmented 500 customers into 4 actionable groups for targeted marketing
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit0101010101&repo=retail-sales-analytics&theme=dark&hide_border=true&title_color=ffffff&text_color=c9c9c9&icon_color=ffffff&bg_color=000000" width="70%"/>
-
-</div>
-
-<br/>
-
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Swap synthetic data for a real-world dataset
 - [ ] Add XGBoost/Prophet for advanced time-series forecasting
 - [ ] Deploy on Streamlit Community Cloud for a live public demo
 - [ ] Add cohort retention analysis
 
-<br/>
+---
 
-<div align="center">
-
-**Rohit Mohammad**
-
-</div>
-
+<p align="center">
+Built by <b>Rohit Mohammad</b>
+</p>
