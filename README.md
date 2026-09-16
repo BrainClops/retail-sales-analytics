@@ -14,12 +14,19 @@ forecast sales and segment customers — served through an interactive dashboard
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,sqlite,pandas,sklearn,streamlit,git" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
 ---
 
 ## About
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=8B8B94&center=true&vCenter=true&width=600&lines=Turning+raw+transactions+into+decisions...;SQL+%2B+Python+%2B+Machine+Learning;Forecasting+sales.+Segmenting+customers." alt="Typing SVG" />
 
 Retail businesses generate huge amounts of transaction data but often struggle to
 turn it into decisions. This project builds a pipeline that:
@@ -43,54 +50,9 @@ CSV Data ──▶ SQLite Database ──▶ SQL Analytics Queries
                                Streamlit Dashboard
 ```
 
-## Tech Stack
-
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=python" width="48"/><br/>Python
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=sqlite" width="48"/><br/>SQLite
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=pandas" width="48"/><br/>Pandas
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=sklearn" width="48"/><br/>scikit-learn
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=streamlit" width="48"/><br/>Streamlit
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=git" width="48"/><br/>Git
-</td>
-</tr>
-</table>
-
 ## Project Structure
 
-```
-retail-analytics-project/
-├── data/
-│   ├── generate_data.py
-│   ├── customers.csv
-│   ├── products.csv
-│   └── transactions.csv
-├── database/
-│   ├── schema.sql
-│   ├── load_data.py
-│   └── analysis_queries.sql
-├── ml/
-│   ├── forecasting.py
-│   └── segmentation.py
-├── app/
-│   └── dashboard.py
-├── assets/
-│   └── banner.png
-├── requirements.txt
-└── README.md
-```
+<img src="assets/project_structure.png" width="100%"/>
 
 ## Features
 
